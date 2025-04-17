@@ -1,0 +1,5 @@
+@startuml
+[*] --> Closed
+Closed --> Open : OpenButton
+Open --> Closed : CloseButton
+@enduml
